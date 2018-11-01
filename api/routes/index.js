@@ -28,6 +28,11 @@ router.get('/register',function(req,res){
   res.render('register')
 })
 
+// ROOT RENDER
+router.get('/wronglogin',function(req, res){
+  res.render('wronglogin')
+})
+
 
 
 //REGISTER POST FUNCTION
